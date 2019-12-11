@@ -1,0 +1,7 @@
+    * 2015.12  Our paper "Fast Top-K Search in Knowledge Graphs" is accepted by ICDE 16.
+    * 2015.12  I will teach a new course "Advanced Databases" (CPT_S 580-06, Tu/Th 9:15-10:30) in Spring 2016. 
+    * 2015.11  Our paper "Adding Counting Quantifiers to Graph Patterns" is accepted by SIGMOD 16.
+    * 2015.8    Welcome to our new students Namaki and Peng!
+    * 2015.8   Our research proposal on Parameterized Graph Search got funded by Google Faculty Research Award 2015!
+    * 2015.7   Congrats to Qi Song and Jin Tao for being selected with full travel support to NSF Graduate Data Science Workshop, Seattle!
+    * 2015.6   Congrats to Qi Song and Rezaur for winning a full travel grant for EDBT summer school, Barcelona Spain!
