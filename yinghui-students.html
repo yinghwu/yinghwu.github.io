@@ -26,6 +26,22 @@ color: blue;
 a:hover {
 color: red;
 }
+details.alumni-fold > summary {
+  cursor: pointer;
+  list-style: none;
+}
+details.alumni-fold > summary::-webkit-details-marker {
+  display: none;
+}
+details.alumni-fold .open-marker {
+  display: none;
+}
+details.alumni-fold[open] .closed-marker {
+  display: none;
+}
+details.alumni-fold[open] .open-marker {
+  display: inline;
+}
   </style>
     <style type="text/css"></style>
     <link rel="stylesheet" type="text/css"
@@ -60,6 +76,7 @@ img {
               Associate Professor<br>
               <a
                 href="https://engineering.case.edu/computer-and-data-sciences">Department
+
 
 
 
@@ -115,8 +132,8 @@ img {
           <br>
           <br>
           <table style="text-align: left; margin-left: auto;
-            margin-right: auto;" width="583" cellspacing="2"
-            cellpadding="2" border="0" height="146">
+            margin-right: auto;" width="583" height="146"
+            cellspacing="2" cellpadding="2" border="0">
             <tbody>
               <tr>
                 <td style="vertical-align: top; text-align: center;"><img
@@ -134,85 +151,43 @@ img {
         <li style="font-style: italic;"><b><span style="font-style:
               italic;">PhD</span></b>
           <table style="text-align: left; margin-left: auto;
-            margin-right: auto;" width="583" cellspacing="2"
-            cellpadding="2" border="0" height="341">
+            margin-right: auto; table-layout: fixed;" width="687"
+            cellspacing="2" cellpadding="2" border="0">
             <tbody>
               <tr>
-                <td style="vertical-align: top; text-align: center;"><img
-                    moz-do-not-send="true"
+                <td style="width: 25%; vertical-align: top; text-align:
+                  center;"><img moz-do-not-send="true"
                     src="students/Mengying%20Wang.jpg" alt="MY"
-                    width="136" height="136"> </td>
-                <td style="vertical-align: top; text-align: center;"> <img
-                    moz-do-not-send="true"
-                    src="students/Yangxin-edit.jpg" alt="YX" width="134"
-                    height="134"></td>
-                <td style="vertical-align: top; text-align: center;"> <img
-                    moz-do-not-send="true"
+                    width="136" height="136"></td>
+                <td style="width: 25%; vertical-align: top; text-align:
+                  center;"><img moz-do-not-send="true"
                     src="students/Mingjian%20Lu-edit.JPG" alt="MJ"
                     width="134" height="133"></td>
-              </tr>
-              <tr>
-                <td style="vertical-align: top; text-align: center;"> <a
-                    moz-do-not-send="true"
-                    href="https://wangmengying.me/">Mengying Wang</a></td>
-                <td style="vertical-align: top; text-align: center;"> <a
-                    moz-do-not-send="true"
-                    href="https://sites.google.com/view/yangxin-fan/home">Yangxin
-
-
-
-
-
-
-
-
-
-                    Fan</a></td>
-                <td style="vertical-align: top; text-align: center;"> <a
-                    moz-do-not-send="true"
-                    href="https://sites.google.com/case.edu/mingjianlu/about">Mingjian
-
-
-
-
-
-
-
-
-
-                    Lu</a></td>
-              </tr>
-              <tr>
-                <td style="vertical-align: middle; text-align: center;">
-                  <img moz-do-not-send="true"
+                <td style="width: 25%; vertical-align: top; text-align:
+                  center;"><img moz-do-not-send="true"
                     src="students/Haolai-edit.jpeg" alt="Haolai"
                     width="133" height="133"></td>
-                <td style="vertical-align: top; text-align: center;"> <img
-                    moz-do-not-send="true" src="students/Fei.jpg"
-                    alt="Fei" width="141" height="132"></td>
-                <td style="vertical-align: top; text-align: center;"> <br>
-                </td>
+                <td style="width: 25%; vertical-align: top; text-align:
+                  center;"><img moz-do-not-send="true"
+                    src="students/Fei.jpg" alt="Fei" width="141"
+                    height="132"></td>
               </tr>
               <tr>
-                <td style="vertical-align: top; text-align: center;"> <a
+                <td style="vertical-align: top; text-align: center;"><a
+                    moz-do-not-send="true"
+                    href="https://wangmengying.me/">Mengying Wang</a></td>
+                <td style="vertical-align: top; text-align: center;"><a
+                    moz-do-not-send="true"
+                    href="https://sites.google.com/case.edu/mingjianlu/about">Mingjian
+                    Lu</a></td>
+                <td style="vertical-align: top; text-align: center;"><a
                     moz-do-not-send="true"
                     href="https://sites.google.com/case.edu/haolai-che/about">Haolai
-
-
-
-
-
-
-
-
-
                     Che</a></td>
-                <td style="vertical-align: top; text-align: center;"> <a
+                <td style="vertical-align: top; text-align: center;"><a
                     moz-do-not-send="true"
                     href="https://feishao315.github.io/index.html">Fei
                     Shao</a></td>
-                <td style="vertical-align: top; text-align: center;"><br>
-                </td>
               </tr>
             </tbody>
           </table>
@@ -221,82 +196,42 @@ img {
         <br>
         <li style="font-style: italic;"><b>MS <br>
           </b>
-          <blockquote>
-            <table width="645" cellspacing="2" cellpadding="2"
-              border="0" height="181">
-              <tbody>
-                <tr>
-                  <td valign="top" align="center">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-                    <img moz-do-not-send="true" src="students/Ao.jpg"
-                      alt="Ao" width="144" height="141"><br>
-                  </td>
-                  <td valign="top" align="center"><img
-                      moz-do-not-send="true"
-                      src="students/SeekPng.com_profile-icon-png_9665493.png"
-                      alt="Ao" width="144" height="141"></td>
-                  <td valign="top" align="center"><img
-                      moz-do-not-send="true"
-                      src="students/SeekPng.com_profile-icon-png_9665493.png"
-                      alt="Ao" width="144" height="141"></td>
-                </tr>
-                <tr>
-                  <td valign="top" align="center"><a
-                      moz-do-not-send="true"
-                      href="https://joeyjiao.dev/">Ao Jiao</a><br>
-                  </td>
-                  <td valign="top" align="center">Harry Trung<br>
-                  </td>
-                  <td valign="top" align="center">Aiden Le<br>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <br>
-          </blockquote>
+          <table style="text-align: left; margin-left: auto;
+            margin-right: auto; table-layout: fixed;" width="687"
+            cellspacing="2" cellpadding="2" border="0">
+            <tbody>
+              <tr>
+                <td style="vertical-align: top; text-align: center;"><img
+                    moz-do-not-send="true" src="students/Ao.jpg"
+                    alt="Ao" width="144" height="141"></td>
+              </tr>
+              <tr>
+                <td style="vertical-align: top; text-align: center;"><a
+                    moz-do-not-send="true" href="https://joeyjiao.dev/">Ao
+                    Jiao</a></td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
         </li>
         <li style="font-style: italic;"><b>BS<br>
             <br>
           </b>
-          <table width="687" cellspacing="2" cellpadding="2" border="0"
-            height="177">
+          <table style="text-align: left; margin-left: auto;
+            margin-right: auto; table-layout: fixed;" width="687"
+            cellspacing="2" cellpadding="2" border="0">
             <tbody>
               <tr>
-                <td valign="top" align="center"><img
-                    moz-do-not-send="true" src="students/Franklin.jpg"
-                    alt="Franklin" width="137" height="137"><br>
-                </td>
-                <td valign="top" align="center"><img
+                <td style="vertical-align: top; text-align: center;"><img
                     moz-do-not-send="true"
                     src="students/Pengjun%20Lu.jpg" alt="Pengjun"
-                    width="128" height="133"><br>
-                </td>
+                    width="128" height="133"></td>
               </tr>
               <tr>
-                <td valign="top" align="center"><a
+                <td style="vertical-align: top; text-align: center;"><a
                     moz-do-not-send="true"
-                    href="https://www.linkedin.com/in/franklin-wang-0bb10b2a3/">Franklin
-
-
-
-
-
-
-
-
-                    Wang</a><br>
-                </td>
-                <td valign="top" align="center"><a
-                    moz-do-not-send="true"
-                    href="http://www.linkedin.com/in/pengjun-lu-7771b6304">Pengjun
-
-
-
-
-
-
-                    Lu</a><br>
-                </td>
+                    href="https://www.linkedin.com/in/pengjun-lu-7771b6304">Pengjun
+                    Lu</a></td>
               </tr>
             </tbody>
           </table>
@@ -323,10 +258,8 @@ img {
                 style="font-style: italic;"></span><span
                 style="font-style: italic;"></span></span></li>
           <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/thomasciardi/">Tommy
-              Ciardi</a> (CS)</li>
-          <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/tian-wang-b5b32b149/">Tian
+
 
 
 
@@ -338,280 +271,154 @@ img {
         </ul>
       </ul>
       <span style="font-weight: bold;"> <br>
-        Alumni (Recent)</span><br>
+        Alumni (Recent, 2021-2026)</span><br>
       <ul>
-      </ul>
-      <ul>
-        <li><span style="font-weight: bold;">PhD</span>: <br>
+        <li><span style="font-weight: bold;">PhD</span>:<br>
         </li>
         <ul>
+          <li><a href="https://www.linkedin.com/in/yangxinfan/">Yangxin
+              Fan</a> (PhD '26; @Epsilon)</li>
           <li><a moz-do-not-send="true"
-              href="https://www.researchgate.net/profile/Sameera-Nalin-Venkat">Sameera
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+              href="https://www.emsl.pnnl.gov/staff/sameera-nalin-venkat">Sameera
               Nalin Venkat</a> (co-advised w. Roger French@SDLE;
-            Postdoc@U of Central Florida)</li>
+            Postdoctoral Research Associate @PNNL/EMSL)</li>
           <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/sheng-guan-b7583759/">Sheng
-
-
-
-
-
-
-
-
-
-
-
-
-              Guan</a> (@Amazon)<br>
-          </li>
+              Guan</a> (@Amazon)</li>
           <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/iam-armanahmed/">Arman
               Ahmed</a> (co-advised w. Anurag Srivastava, WSU; @Intel
-            Corporation)<br>
-          </li>
-          <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/namaki/">Mohammad
-              Hossein Namaki </a>(@Microsoft)</li>
-          <li><a moz-do-not-send="true"
-              href="https://songqi1990.github.io/">Qi Song</a> (Prof.
-            @USTC)</li>
-          <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/peng-lin-810308a1/">Peng
-              Lin</a> (@ByteDance)</li>
+            Corporation)</li>
           <li>Ahmad Maroof Karimi (@Oak Ridge National Laboratory;
-            co-advised w. Roger French@SDLE)
-            <meta charset="utf-8">
-          </li>
-          <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/mengze-andy-zhou-27881210a/">Mengze
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              Zhou</a> (co-advised w. Anurag Srivastava, WSU;
-            @PacifiCorp)<br>
-            <br>
-          </li>
+            co-advised w. Roger French@SDLE)</li>
         </ul>
-        <li><span style="font-weight: bold;">MS</span>: <br>
+        <li><span style="font-weight: bold;">MS</span>:<br>
         </li>
         <ul>
-          <li><a href="https://shrihegde.vercel.app/">Shri Hedge</a> (CS
-            MS'26; @MultiCase)<br>
-          </li>
-          <li>Lam Nguyen (CS MS' 25; @Microsoft)<br>
-          </li>
-          <li>Jiaqi Li (CS MS' 25; @Toyota)<br>
-          </li>
+          <li><a href="https://www.linkedin.com/in/shrinidhihegde/">Shrinidhi
+              Hegde</a> (CS MS '26; @MultiCASE)</li>
+          <li>Harry Trung (CS MS '26)</li>
+          <li>Aiden Le (CS MS '26)</li>
+          <li>Lam Nguyen (CS MS '25; @Microsoft)</li>
+          <li>Jiaqi Li (CS MS '25; @Toyota)</li>
           <li><a moz-do-not-send="true" href="https://bianyiyang.me/">Yiyang
-
-
-
-
-
-
-
-
-
-              Bian</a> (CS MS '24; Ph.D. @UCR)<br>
-          </li>
+              Bian</a> (CS MS '24; Ph.D. @UCR)</li>
           <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/deepa-bhuvanagiri/">Deepa
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              Bhuvanagiri </a>(CS MS '23; @P&amp;G)</li>
+              Bhuvanagiri</a> (CS MS '23; @P&amp;G)</li>
           <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/lei-ruan-159981bb/">Lei
               Ruan</a> (CS MS '22; @Fortinet)</li>
           <li><a moz-do-not-send="true"
               href="https://www.linkedin.com/in/sukhjindersingh93/">Sukhjinder
-
-
-
-
-
-
-
-
-
-              Singh</a> (CS MS' 21; @Microsoft)</li>
-          <li>Keyvan Sasani (@BigStream)</li>
-          <li>Jingling Tao (@Mercury Systems Inc.)</li>
-          <li><a moz-do-not-send="true"
-              href="https://sites.google.com/ucr.edu/xzhan261">Xin Zhang</a>
-            (@Amazon AWS Redshift)</li>
-          <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/mgiridhar/">Giridhar
-              Manoharan</a>(@Google)</li>
-          <li>Yunzhou Cao (CS Sp '22)<br>
-            <br>
-          </li>
+              Singh</a> (CS MS '21; @Microsoft)</li>
+          <li>Yunzhou Cao (CS Sp '22)</li>
         </ul>
-        <li><span style="font-weight: bold;">Undergraduate</span></li>
+        <li><span style="font-weight: bold;">Undergraduate</span>:<br>
+        </li>
         <ul>
-          <li><i><a moz-do-not-send="true"
-                href="https://www.linkedin.com/in/duy-escanord-le/">Escanord
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                Le (<font color="#000000">graduated CWRU '24; Ph.D.
-                  @Rice U</font>)</a></i></li>
-          <li><i><a moz-do-not-send="true"
-                href="https://www.linkedin.com/in/jiamu-zhang-morris/">Jiamu
-
-
-
-
-
-
-
-
-
-                Zhang</a> (graduated CWRU '24; Ph.D. @Rice U)</i></li>
-          <li><i><a moz-do-not-send="true"
-                href="https://www.linkedin.com/in/wen-tao-lin-a276a3173/">Wentao
-
-
-
-
-
-
-
-
-
-                Lin</a> (graduated CWRU '24; @CTrees)<br>
-            </i></li>
+          <li><a
+              href="https://www.linkedin.com/in/franklin-wang-0bb10b2a3/">Franklin
+              Wang</a> (graduated CWRU '26; @Fast Enterprises, LLC)</li>
           <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/jialiang-shen/">Jialiang
-              Shen</a> (Beijing University of Posts and
-            Telecommunications, '17; MS@CMU; @Amazon).</li>
-          <li>NSF REU:&nbsp; <br>
-            <a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/nathaniel-sprecher/">Nathaniel
-
-
-
-
-
-
-
-
-
-              David Sprecher </a>(Grove City Colledge, summer 19;
-            @InterSystems)<br>
-            <a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/evan-mcelheny-770972249/">Evan
-
-
-
-
-
-
-
-
-
-              McElheny </a>(Marist Colledge,&nbsp;Summer 18.
-            @Constrafor)<br>
-            <a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/caseyjofleck/">Casey
-              Fleck </a>(Coastal Carolina University, Summer 17. @Angi)<br>
-            <a moz-do-not-send="true"
-              href="https://smonadjemi.vercel.app/">Shayan Monadjemi</a>
-            (U Texas Dallas, Summer 2016. PhD@WashU in St.Louis, @Oak
-            Ridge National Lab)<br>
-            <a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/rbaumher/">Rebecca
-              Baumher </a>(University of Pennsylvania, Summer 15.
-            @Google)<br>
-            <span style="font-weight: bold;"></span></li>
-          <br>
+              href="https://www.linkedin.com/in/duy-escanord-le/">Escanord
+              Le</a> (graduated CWRU '24; Ph.D. @Rice U)</li>
+          <li><a moz-do-not-send="true"
+              href="https://www.linkedin.com/in/jiamu-zhang-morris/">Jiamu
+              Zhang</a> (graduated CWRU '24; Ph.D. @Rice U)</li>
+          <li><a moz-do-not-send="true"
+              href="https://www.linkedin.com/in/wen-tao-lin-a276a3173/">Wentao
+              Lin</a> (graduated CWRU '24; @CTrees)</li>
         </ul>
-        <li><span style="font-weight: bold;">Visiting Scholars</span>: <br>
+        <li><span style="font-weight: bold;">MDS3 COE Graduate Research
+            Alumni</span>:<br>
+        </li>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/thomasciardi/">Tommy
+              Ciardi</a> (@MorelandConnect)</li>
+        </ul>
+        <li><span style="font-weight: bold;">Visiting Scholars</span>:<br>
         </li>
         <ul>
           <li><a moz-do-not-send="true"
-              href="https://www.linkedin.com/in/dazhuo-qiu-299b5a25a/">Dazhuo
-
-
-
-
-
-
-
-
-
-              Qiu</a> (Fall '24 - Spring '25; PhD@Aalborg University,
-            Denmark)<br>
-          </li>
-          <li>Xinqiang Xie (Postdoc@Northeast University, China)</li>
-          <li>Hui Sun (Prof.@Renmin University, China)</li>
-          <li>Ling Xiong (Prof. @Wuhan University of Science and
-            Technology, China)<br>
-            <br>
-          </li>
+              href="https://sites.google.com/view/dazhuo-qiu/home">Dazhuo
+              Qiu</a> (Fall '24 - Spring '25; Postdoc @Lyon 1 University
+            &amp; CNRS LIRIS)</li>
         </ul>
       </ul>
+      <details class="alumni-fold" style="margin-top: 8px; margin-left:
+        20px;">
+        <summary><span class="closed-marker">[+]</span><span
+            class="open-marker">[-]</span> <span style="font-weight:
+            bold;">Earlier Alumni (before 2021)</span></summary>
+        <ul>
+          <li><span style="font-weight: bold;">PhD</span>:<br>
+          </li>
+          <ul>
+            <li><a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/namaki/">Mohammad
+                Hossein Namaki</a> (@Microsoft)</li>
+            <li><a moz-do-not-send="true"
+                href="https://songqi1990.github.io/">Qi Song</a>
+              (Professor @USTC)</li>
+            <li><a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/peng-lin-810308a1/">Peng
+                Lin</a> (@ByteDance)</li>
+            <li><a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/mengze-andy-zhou-27881210a/">Mengze
+                Zhou</a> (co-advised w. Anurag Srivastava, WSU;
+              @PacifiCorp)</li>
+          </ul>
+          <li><span style="font-weight: bold;">MS</span>:<br>
+          </li>
+          <ul>
+            <li>Keyvan Sasani (@BigStream)</li>
+            <li>Jingling Tao (@Mercury Systems Inc.)</li>
+            <li><a moz-do-not-send="true"
+                href="https://sites.google.com/ucr.edu/xzhan261">Xin
+                Zhang</a> (@AWS Redshift)</li>
+            <li><a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/mgiridhar/">Giridhar
+                Manoharan</a> (@Google)</li>
+          </ul>
+          <li><span style="font-weight: bold;">Undergraduate / NSF REU</span>:<br>
+          </li>
+          <ul>
+            <li><a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/jialiang-shen/">Jialiang
+                Shen</a> (Beijing University of Posts and
+              Telecommunications, '17; MS@CMU; @Amazon)</li>
+            <li>NSF REU:<br>
+              <a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/nathaniel-sprecher/">Nathaniel
+                David Sprecher</a> (Grove City College, Summer '19;
+              @InterSystems)<br>
+              <a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/evan-mcelheny-770972249/">Evan
+                McElheny</a> (Marist College, Summer '18; @Datadog)<br>
+              <a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/caseyjofleck/">Casey
+                Fleck</a> (Coastal Carolina University, Summer '17;
+              @Angi)<br>
+              <a moz-do-not-send="true"
+                href="https://www.ornl.gov/staff-profile/shayan-monadjemi">Shayan
+                Monadjemi</a> (UT Dallas, Summer '16; PhD@WashU in St.
+              Louis; Visual Analytics Research Scientist @ORNL)<br>
+              <a moz-do-not-send="true"
+                href="https://www.linkedin.com/in/rbaumher/">Rebecca
+                Baumher</a> (University of Pennsylvania, Summer '15;
+              @Google) </li>
+          </ul>
+          <li><span style="font-weight: bold;">Visiting Scholars</span>:<br>
+          </li>
+          <ul>
+            <li>Xinqiang Xie (Postdoc@Northeast University, China)</li>
+            <li>Hui Sun (Prof.@Renmin University, China)</li>
+            <li>Ling Xiong (Prof. @Wuhan University of Science and
+              Technology, China)</li>
+          </ul>
+        </ul>
+      </details>
       <ul>
       </ul>
       <span style="font-weight: bold;"></span><span style="font-weight:
